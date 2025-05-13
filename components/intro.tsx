@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="../public/real-pic.jpg"
+              src="real-pic.jpg"
               alt="daman portrait"
               width="190"
               height="192"
