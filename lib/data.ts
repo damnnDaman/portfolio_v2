@@ -6,6 +6,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import logo from "@/public/image.png";
+
+
 
 export const links = [
   {
@@ -67,7 +70,9 @@ export const projectsData = [
     description:
       "Developed a sophisticated tool for understanding and summarizing code across various programming languages using advanced LLMs.",
     tags: ["React", "Express", "HuggingFace", "Tailwind", "CodeT5"],
-    imageUrl: corpcommentImg,
+    imageUrl: logo
+  
+  ,
   },
   {
     title: "Bhagvad Geeta Chatbot",

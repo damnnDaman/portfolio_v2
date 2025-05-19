@@ -4,6 +4,8 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import portrait from "../public/real-pic.jpg";
+
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -32,7 +34,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/real-pic.jpg"
+              src={portrait}
               alt="daman portrait"
               width="190"
               height="192"
